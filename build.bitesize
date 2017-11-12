@@ -4,7 +4,7 @@ components:
     os: linux
     repository:
       git: https://github.com/dongascan/SpringBoot_viranga.git
-      branch: springapp1-v2.0.10
+      branch: master
     build:
       - shell: sudo mvn clean package
       - shell: sudo mkdir -p /app
