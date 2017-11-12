@@ -1,12 +1,12 @@
-project: sample
+project: viranga
 environments:
   - name: Development
-    namespace: sample-dev
+    namespace: viranga-dev
     deployment:
       method: rolling-upgrade
     services:
       - name: spring-app
-        external_url: hellobite-sample.dev-bite.io
+        external_url: virangaapp.dev-bite.io
         port: 8080 
         ssl: "false"
         replicas: 1
